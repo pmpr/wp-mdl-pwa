@@ -1,0 +1,25 @@
+{
+  "name": "pmpr-pkg/wp-pkg-pwa",
+  "type": "project",
+  "license": "proprietary",
+  "description": "PWA Package for Wordpress",
+  "keywords": [
+    "wordpress",
+    "package",
+    "pwa"
+  ],
+  "require": {
+    "php": ">=7.4",
+    "pmpr-cmn/wp-cmn-foundation": "dev-main"
+  },
+  "autoload": {
+    "psr-4": {
+      "Pmpr\\Package\\PWA\\": "src/Pmpr/Package/PWA"
+    },
+    "files": [
+      "index.php"
+    ]
+  },
+  "minimum-stability": "dev"
+}
+

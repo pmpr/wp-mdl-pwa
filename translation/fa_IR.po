@@ -1,0 +1,160 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Pmpr PWA\n"
+"POT-Creation-Date: 2021-05-02 02:12+0430\n"
+"PO-Revision-Date: 2021-05-02 02:21+0430\n"
+"Last-Translator: Farshadi <Farshad_asgharzade@hotmail.com>\n"
+"Language-Team: \n"
+"Language: fa_IR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.3\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: index.php\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Source-Language: en\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;"
+"_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: lib\n"
+"X-Poedit-SearchPathExcluded-1: *.js\n"
+
+#: src/Pmpr/PWA/Setting.php:30
+msgid "PWA"
+msgstr "وب اپلیکیشن پیش‌رونده"
+
+#: src/Pmpr/PWA/Setting.php:31
+msgid "PWA Setting"
+msgstr "تنظیمات وب اپلیکیشن پیش‌رونده"
+
+#: src/Pmpr/PWA/Setting.php:39
+msgid "General"
+msgstr "عمومی"
+
+#: src/Pmpr/PWA/Setting.php:43
+msgid "Information"
+msgstr "اطلاعات"
+
+#: src/Pmpr/PWA/Setting.php:47
+msgid "Name"
+msgstr "نام"
+
+#: src/Pmpr/PWA/Setting.php:48
+msgid "Used for App lists or Store listings"
+msgstr "برای لیست برنامه ها یا لیست های فروشگاه استفاده می شود"
+
+#: src/Pmpr/PWA/Setting.php:53
+msgid "Short Name"
+msgstr "نام کوتاه"
+
+#: src/Pmpr/PWA/Setting.php:54
+msgid "Used for tiles or home screens"
+msgstr "برای آیکون برنامه یا صفحه نمایش خانگی استفاده می شود"
+
+#: src/Pmpr/PWA/Setting.php:59
+msgid "Description"
+msgstr "شرح"
+
+#: src/Pmpr/PWA/Setting.php:60
+msgid "Used for App listings"
+msgstr "برای لیست برنامه ها استفاده می شود"
+
+#: src/Pmpr/PWA/Setting.php:66
+msgid "Configuration"
+msgstr "پیکربندی"
+
+#: src/Pmpr/PWA/Setting.php:70
+msgid "Display"
+msgstr "نمایش"
+
+#: src/Pmpr/PWA/Setting.php:72
+msgid "Fullscreen"
+msgstr "تمام صفحه"
+
+#: src/Pmpr/PWA/Setting.php:73
+msgid "Standalone"
+msgstr "مستقل"
+
+#: src/Pmpr/PWA/Setting.php:74
+msgid "Minimal-ui"
+msgstr "رابط کاربری مینیمال"
+
+#: src/Pmpr/PWA/Setting.php:76
+msgid ""
+"Display identifies the browser components that should be included in your. "
+"\"Standalone\" appears as a traditional app"
+msgstr ""
+"نحوه تعامل برنامه شما با مرورگر را تعیین می‌کند. «مستقل» به صورت یک برنامه "
+"سنتی اجرا می‌شود."
+
+#: src/Pmpr/PWA/Setting.php:81
+msgid "Orientation"
+msgstr "تشخیص جهت"
+
+#: src/Pmpr/PWA/Setting.php:83
+msgid "Any"
+msgstr "همه"
+
+#: src/Pmpr/PWA/Setting.php:84
+msgid "Natural"
+msgstr "طبیعی"
+
+#: src/Pmpr/PWA/Setting.php:85
+msgid "Portrait"
+msgstr "پرتره"
+
+#: src/Pmpr/PWA/Setting.php:86
+msgid "Landscape"
+msgstr "چشم انداز"
+
+#: src/Pmpr/PWA/Setting.php:87
+msgid "Portrait Primary"
+msgstr "پرتره اولیه"
+
+#: src/Pmpr/PWA/Setting.php:88
+msgid "Landscape Primary"
+msgstr "چشم انداز اولیه"
+
+#: src/Pmpr/PWA/Setting.php:89
+msgid "Portrait Secondary"
+msgstr "پرتره ثانویه"
+
+#: src/Pmpr/PWA/Setting.php:90
+msgid "Landscape Secondary"
+msgstr "چشم انداز ثانویه"
+
+#: src/Pmpr/PWA/Setting.php:92
+msgid "Orientation determines the preferred flow of your application"
+msgstr "جهت گیری جریان مطلوب برنامه شما را تعیین می کند"
+
+#: src/Pmpr/PWA/Setting.php:97
+msgid "Language"
+msgstr "زبان"
+
+#: src/Pmpr/PWA/Setting.php:99
+msgid "Declare the language of your PWA"
+msgstr "زبان وب اپلیکیشن پیش‌رونده خود را اعلام کنید"
+
+#: src/Pmpr/PWA/Setting.php:104
+msgid "Background Color"
+msgstr "رنگ پس‌زمینه"
+
+#: src/Pmpr/PWA/Setting.php:105
+msgid "select the background color for your splash screen and tile"
+msgstr "رنگ پس زمینه را برای صفحه اسپلش و برنامه خود انتخاب کنید"
+
+#~ msgid "AMP"
+#~ msgstr "شتابدهی موبایل"
+
+#~ msgid "Enable AMP"
+#~ msgstr "فعال سازی شتابدهی موبایل"
+
+#~ msgid "Endpoint"
+#~ msgstr "نقطه پایانی"
+
+#~ msgid "Exclude Posts"
+#~ msgstr "نوشته‌های مستثنی"
+

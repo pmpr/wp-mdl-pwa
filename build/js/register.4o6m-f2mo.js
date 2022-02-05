@@ -1,0 +1,2 @@
+/*! For license information please see register.4o6m-f2mo.js.LICENSE.txt */
+(()=>{const e=PMPRUtil.getSettingByPath("pwa.sw");PMPRUtil.isEmpty(e)||PMPRInlineUtil.registerListener("load",(function(o){"serviceWorker"in navigator?navigator.serviceWorker.register(e,{scope:"."}).then((function(e){console.log("ServiceWorker registration successful with scope: ",e.scope)}),(function(e){console.log("ServiceWorker registration failed: ",e)})).catch((function(e){console.log("ServiceWorker registration failed: ",e)})):console.log("ServiceWorker not exist.")}))})();

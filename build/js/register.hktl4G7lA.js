@@ -1,2 +1,2 @@
-/*! For license information please see register.GGOCK_G2m.js.LICENSE.txt */
+/*! For license information please see register.hktl4G7lA.js.LICENSE.txt */
 PMPRInlineUtil.registerListener("load",(function(e){"serviceWorker"in navigator?navigator.serviceWorker.register("{{ sw }}",{scope:"."}).then((function(e){console.log("ServiceWorker registration successful with scope: ",e.scope)}),(function(e){console.log("ServiceWorker registration failed: ",e)})).catch((function(e){console.log("ServiceWorker registration failed: ",e)})):console.log("ServiceWorker not exist.")}));

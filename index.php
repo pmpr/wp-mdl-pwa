@@ -1,7 +1,7 @@
 <?php
 /*   _______________________________________
     |  Obfuscated by PMPR - Php Obfuscator  |
-    |             61ffb37c24271             |
+    |             62400fa862b62             |
     |_______________________________________|
 */
- use Pmpr\Package\PWA\PWA; PWA::symcgieuakksimmu();
+ use Pmpr\Module\PWA\PWA; PWA::symcgieuakksimmu();

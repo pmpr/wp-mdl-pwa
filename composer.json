@@ -1,8 +1,8 @@
 {
-  "name": "pmpr-pkg/wp-pkg-pwa",
+  "name": "pmpr-mod/wp-mod-pwa",
   "type": "project",
   "license": "proprietary",
-  "description": "PWA Package for Wordpress",
+  "description": "PWA Module for Wordpress",
   "keywords": [
     "wordpress",
     "package",
@@ -14,7 +14,7 @@
   },
   "autoload": {
     "psr-4": {
-      "Pmpr\\Package\\PWA\\": "src/Pmpr/Package/PWA"
+      "Pmpr\\Module\\PWA\\": "src/Pmpr/Module/PWA"
     },
     "files": [
       "index.php"

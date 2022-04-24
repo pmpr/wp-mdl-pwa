@@ -4,7 +4,7 @@ const cacheName = '{{ cache_name|raw }}';
 const startPage = '{{ start_page|raw }}';
 const offlinePage = '{{ offline_page|raw }}';
 const filesToCache = [startPage, offlinePage];
-const neverCacheUrls = [/\/wp-admin/, /\/wp-login/, /preview=true/];
+const neverCacheUrls = [/\/wp-admin/, /\/wp-login/, /\/panel/, /preview=true/];
 
 // Install
 self.addEventListener('install', function (e) {

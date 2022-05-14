@@ -1,2 +1,0 @@
-/*! For license information please see register.wOcACL6va.js.LICENSE.txt */
-PMPRInlineUtil.registerListener("load",(function(e){"serviceWorker"in navigator?navigator.serviceWorker.register("{{ sw }}",{scope:"."}).then((function(e){console.log("ServiceWorker registration successful with scope: ",e.scope)}),(function(e){console.log("ServiceWorker registration failed: ",e)})).catch((function(e){console.log("ServiceWorker registration failed: ",e)})):console.log("ServiceWorker not exist.")}));

@@ -8,6 +8,9 @@ const neverCacheUrls = [/\/wp-admin/, /\/wp-login/, /\/panel/, /preview=true/];
 
 // Install
 self.addEventListener('install', function (e) {
+
+    self.skipWaiting();
+
     console.log('PWA service worker installation');
     e.waitUntil(
         caches.open(cacheName).then(function (cache) {
@@ -23,7 +26,9 @@ self.addEventListener('install', function (e) {
 
 // Activate
 self.addEventListener('activate', function (e) {
+
     console.log('PWA service worker activation');
+
     e.waitUntil(
         caches.keys().then(function (keyList) {
             return Promise.all(keyList.map(function (key) {
@@ -34,6 +39,7 @@ self.addEventListener('activate', function (e) {
             }));
         })
     );
+
     return self.clients.claim();
 });
 

@@ -1,7 +1,7 @@
 <?php
 /*   _______________________________________
     |  Obfuscated by PMPR - Php Obfuscator  |
-    |             65195b35ece32             |
+    |             654a16aa48b5c             |
     |_______________________________________|
 */
- namespace Pmpr\Module\PWA; use Pmpr\Common\Foundation\Container\Container as BaseClass; abstract class Container extends BaseClass { const megoekiemouaquwk = "\x76\x31\56\x31\x2e\x31\62"; const kwckogkkioyqyqqq = "\57\163\167\45\163\55\x25\x73\56\x6a\x73"; const jgkmawiysugewomi = "\x6d\x61\156\x69\x66\145\163\x74\45\163\55\x25\163\x2e\x77\x65\142\x6d\x61\x6e\151\146\x65\x73\x74"; public function __construct() { $this->settingObj = Setting::symcgieuakksimmu(); parent::__construct(); } public function iiemsmwikukeqiso() : string { $yuwymayicwwqiske = ''; $eiicaiwgqkgsekce = $this->caokeucsksukesyo()->giiecckwoyiawoyy(); if (!$eiicaiwgqkgsekce->cmaecekuqkwmemms("\120\122\137\x4d\x55\x4c\124\x49\123\x49\x54\x45")) { goto cecuyayqoioasumi; } $yuwymayicwwqiske = "\55" . $eiicaiwgqkgsekce->akoiqeemqgmakecu(); cecuyayqoioasumi: return sprintf(self::kwckogkkioyqyqqq, $yuwymayicwwqiske, self::megoekiemouaquwk); } public function asckusockwoccusa() : string { $yuwymayicwwqiske = ''; $eiicaiwgqkgsekce = $this->caokeucsksukesyo()->giiecckwoyiawoyy(); if (!$eiicaiwgqkgsekce->cmaecekuqkwmemms("\120\122\x5f\115\125\x4c\x54\111\x53\111\124\x45")) { goto qiaqsassksqiuyae; } $yuwymayicwwqiske = "\55" . $eiicaiwgqkgsekce->akoiqeemqgmakecu(); qiaqsassksqiuyae: return sprintf(self::jgkmawiysugewomi, $yuwymayicwwqiske, self::megoekiemouaquwk); } }
+ namespace Pmpr\Module\PWA; use Pmpr\Common\Foundation\Container\Container as BaseClass; use Pmpr\Module\PWA\Interfaces\CommonInterface; use Pmpr\Module\PWA\Traits\CommonTrait; abstract class Container extends BaseClass implements CommonInterface { use CommonTrait; public function __construct() { $this->settingObj = Setting::symcgieuakksimmu(); parent::__construct(); } }
